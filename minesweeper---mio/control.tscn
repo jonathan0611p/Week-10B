@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://bbb7ean5ut4to"]
+
+[ext_resource type="Script" uid="uid://bhxh4yqwhl832" path="res://control.gd" id="1_0fbet"]
+[ext_resource type="Texture2D" uid="uid://68655fbuel20" path="res://icon.svg" id="2_62e2m"]
+
+[node name="Control" type="Control" unique_id=1634366630]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_0fbet")
+
+[node name="GreetingLabel" type="Label" parent="." unique_id=59767601]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="Beacon" type="Sprite2D" parent="." unique_id=1565093895]
+texture = ExtResource("2_62e2m")
+offset = Vector2(160, 120)

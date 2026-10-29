@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://by1xwj2vbg1qc"]
+
+[ext_resource type="Texture2D" uid="uid://68655fbuel20" path="res://icon.svg" id="1_0e48y"]
+[ext_resource type="Script" uid="uid://c3gicld42xrlm" path="res://Beacon.cs" id="2_epypp"]
+
+[node name="Node2D" type="Node2D" unique_id=871423397]
+
+[node name="GreetingLabel" type="Label" parent="." unique_id=392279183]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="Beacon" type="Sprite2D" parent="." unique_id=1096492543]
+texture = ExtResource("1_0e48y")
+offset = Vector2(160, 120)
+script = ExtResource("2_epypp")
